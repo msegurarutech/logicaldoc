@@ -1,0 +1,22 @@
+{
+  "name": "logical_doc_rest_api",
+  "version": "8.4.2",
+  "description": "This_is_the_interactive_documentation_of_the_REST_APIs_exposed_by_LogicalDOC__You_can_find_more_information_about_LogicalDOC_at_httpswww_logicaldoc_com_or_on_Twitter_logicaldoc_br________________Note_The_access_path_to_the_API_is_protected_with_basic_authentication_to_be_able_to_run_the_samples_you_must_log_in_using_the_credentials_of_a_Logicaldoc_user_or_passing_to_the_request_the_session_ID__SID_as_a_cookie__cookie_name_ldoc_sid_brbr_____________Here_is_an_example_to_list_the_children_folders_br_____________precurl__u_adminadmin__H_Accept_applicationjson_httplocalhost8080servicesrestfolderlistChildrenfolderId4pre_____________brbr_____________RESTful_Guide_with_curl_httpswiki_logicaldoc_comwikiRESTful_Guide_with_curl_____________brbr_____________Practical_examples_of_use_are_available_for_various_programming_languages_at_httpwiki_logicaldoc_comwikiBindings_And_Samples_____________brbr_____________SDK_Clients_for_a_number_of_programming_languages_Java_Javascript_Python_PHP_C_and_more_can_be_downloaded_at_httpsapp_swaggerhub_comapisswatzniaklogicaldoc_rest_api__________________brbr_____________Find_out_more_about_LogicalDOC_httpswww_logicaldoc_com",
+  "license": "Apache 2.0 License",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.7.0",
+    "querystring": "0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
